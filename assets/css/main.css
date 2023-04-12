@@ -6853,7 +6853,7 @@ input, select, textarea {
 			overflow-x: auto;
 			overflow-y: hidden;
 			position: relative;
-			width: 100%;
+			height: 100%;
 		}
 
 		.gallery.style2 article {
@@ -6873,14 +6873,16 @@ input, select, textarea {
 		}
 
 			.gallery.style2 article .image {
-				display: block;
-				width: 100%;
+				display: flex;
+				justify-content: center;
+				height: 100%;
 				border-radius: 0;
 			}
 
 				.gallery.style2 article .image img {
-					display: block;
-					width: 100%;
+					display: flex;
+					justify-content: center;
+					height: 100%;
 					border-radius: 0;
 				}
 
